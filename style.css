@@ -1,0 +1,84 @@
+body{
+  text-align:center;
+  font-family: Bitter, serif;
+}
+
+.paginaPrincipal{
+  display: flex;
+  max-width: 98vw; /*ancho maximo de la pantalla en la que se este viendo*/
+  height: 97vh;  /*ancho maximo de la pantalla en la que se este viendo*/
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #141414;
+  background-color: #FFE421;
+  gap: 60px;
+}
+
+.trivia{
+  max-width: auto;
+  height: auto;  
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #141414;
+  background-color: #FFE421;
+  gap: 60px; 
+
+}
+
+.trivia .Q1{
+width: 600px;
+margin: 0 auto; /*arriba y abajo 0 y a los lados automatico (para centrar contenido)*/
+}
+
+
+.Q1{
+flex-direction: column;
+background-color: #f3f3f2;
+border-top: 5px solid #141414;
+padding: 10px /*este es vertical*/ 20px; /*este es horizontal*/
+min-height:200px; /*para igualar contenedores*/
+}
+
+.img1{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+  
+.button{
+    text-align: center;
+    font-family: Bitter, serif;
+    background: #FFE521;
+    color: #000000;
+    font-size: 14px; /*tamano de la fuente*/
+    font-weight: 800; /*grosor de la fuente*/
+    border-radius: 3px; /*para redondear bordes*/
+    border: 0px; /*para quitar el borde por defecto*/
+    padding: 10px /*este es vertical*/ 20px; /*este es horizontal*/
+  }
+
+.button1{
+  
+    text-align: center;
+    font-family: Bitter, serif;
+    background: #f3f3f2;
+    color: #000000;
+    font-size: 14px; /*tamano de la fuente*/ 
+    font-weight: 800; /*grosor de la fuente*/
+    border-radius: 3px; /*para redondear bordes*/
+    border: 0; /*para quitar el borde por defecto*/
+    padding: 10px /*este es vertical*/ 20px; /*este es horizontal*/
+  
+}
+.triviabase{
+  background-color:#f3f3f2;
+  max-width: 450px;  
+}
+
+.foot{
+  text-align: center;
+  font-family: Bitter, serif;
+  font-size: 14px; /*tamano de la fuente*/ 
+  font-weight: 800; /*grosor de la fuente*/
+}
+

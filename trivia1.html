@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cultura Laboratoria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+  <link href="index.html">
+  <script src="script1.js"></script>
+</head>
+
+<body >
+  
+  <header> 
+   <a href="index.html"><img src="img/trivialab.png" alt="Trivialab" width="150px" height="auto"></a>
+
+  </header>
+    <form>
+    
+<div class="trivia">
+    <div class="img1">
+      <img src="img/aprendizaje-laboratoria-p4.png" alt="Jedi" width="300px">
+    </div>
+    <div class="Q1">
+      <p>¿Qué método de aprendizaje es utilizado en laboratoria?</p>
+      
+      <input type="radio" id="a" name="pregunta_1" onclick="Alt1()" value="incorrecta">
+      <label id="a1">Se basa en la educación tradicional, cuenta con notas y profesores</label>
+      <br>
+      
+      <input type="radio" id="b" name="pregunta_1" onclick="Alt2()" value="incorrecta">
+      <label id="a2">Es un curso online que se descarga y se trabaja de manera autodidacta</label>
+      <br>
+      
+      <input type="radio" id="c" name="pregunta_1" onclick="Alt3()" value="correcta">
+      <label id="a3"> Es un aprendizaje mas bien autónomo y acompañado por coaches</label>
+</div>
+
+    <div class="img1">
+      <img src="img/año-laboratoria-p6.png" alt="Jedi" width="400px" >
+    </div>
+  <div class="Q1">
+      <p>¿En qué año se fundó laboratoria?</p>
+      <input type="radio" id="d" name="pregunta_2" onclick="Alt4()" value="incorrecta">
+  <label id="b1">2002</label><br>
+  <input type="radio" id="e" name="pregunta_2" onclick="Alt5()" value="correcta">
+  <label id="b2">2014</label><br>
+  <input type="radio" id="f" name="pregunta_2" onclick="Alt6()" value="incorrecta">
+  <label id="b3">2011</label>
+</div>
+
+    <div class="img1">
+      <img src="img/mundo-laboratoria-p3.jpg" alt="Jedi" width="300px">
+    </div>
+  <div class="Q1">
+   <p>¿En qué países se encuentra el Bootcamp?</p>
+  <input type="radio" id="h" name="pregunta_3" onclick="Alt7()" value="correcta">
+  <label id="c1">Chile, México, Perú, Brasil, Colombia </label><br>
+  <input type="radio" id="i" name="pregunta_3" onclick="Alt8()" value="incorrecta">
+  <label id="c2">México, Argentina, Chile, Bolivia</label><br>
+  <input type="radio" id="j" name="pregunta_3" onclick="Alt9()" value="incorrecta">
+  <label id="c3">Chile, Brasil, Canadá, Bolivia</label>
+  </div>
+   <div>
+    <br>
+   
+   <input type="button" onclick="final1()" class="button1" value="Volver a Jugar" /> <br></br>
+  </br>
+     
+ </div>
+</div>
+    </form>

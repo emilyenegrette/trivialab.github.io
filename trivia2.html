@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cultura Laboratoria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+  <script src="script2.js"></script>
+</head>
+
+<body>
+  
+  <header> 
+    <a href="index.html"><img src="img/trivialab.png" alt="Trivialab" width="150px" height="auto"></a>
+
+  </header>
+  <form>
+    <div class="trivia">
+    <div class="img1">
+      <img src="img/grupo-laboratoria-p2.png" alt="Grupo" width="300px" height="300px">
+    </div>
+<div class="Q1">
+      <p class= preguntaUno >¿Cuál es el mejor equipo? <br>
+      <input type="radio" id="a" name="pregunta_1" onclick="Alt1()" value="correcta" class=preguntaUno>
+  <label id="a1">Grupo 7</label><br>
+  <input type="radio" id="b" name="pregunta_1" onclick="Alt2()" value="incorrecta">
+  <label id="a2">Grupo 4</label><br>
+  <input type="radio" id="c" name="pregunta_1" onclick="Alt3()" value="incorrecta">
+  <label id="a3">Grupo 3</label>
+        </p>
+</div>
+
+    
+    <div class="img1">
+      <img src="img/squads-laboratoria-p3.jpg" alt="Squads" width="300px" height="300px">
+    </div>
+   
+     <div class="Q1">
+   <p>¿Cuántos squads son?</p>
+    <div>
+      <input type="radio" id="d" name="pregunta_2" onclick="Alt4()" value="incorrecta">
+  <label id="b1">3</label><br>
+  <input type="radio" id="e" name="pregunta_2" onclick="Alt5()" value="correcta">
+  <label id="b2">7</label><br>
+  <input type="radio" id="f" name="pregunta_2" onclick="Alt6()" value="incorrecta">
+  <label id="b3">6</label>
+    </div>
+    </div>
+
+      
+    <div class="img1">
+      <img src="img/jedi-laboratoria-p5.png" alt="Jedi" width="300px" height="300px">
+    </div>
+<div class="Q1">
+ <p>¿Cuál de estos NO es un Jedi en Laboratoria?</p>
+ <input type="radio" id="g" name="pregunta_3" onclick="Alt7()" value="incorrecta"> 
+  <label id="c1" id="rojo">Alpi</label><br>
+  <input type="radio" id="h" name="pregunta_3" onclick="Alt8()" value="incorrecta"> 
+  <label id="c2">Mijal</label><br>
+  <input type="radio" id="i" name="pregunta_3" onclick="Alt9()" value="correcta">
+  <label id="c3">Darth Vader</label>
+      
+    </div>
+    
+    <div>
+    <br>
+    <input type="button" onclick="final1()" class="button1" value="Volver a Jugar" /> <br></br>
+  </br>
+      
+    </div>
+  </div>
+  </form>
